@@ -1,0 +1,56 @@
+﻿<Window x:Class="WpfApp4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid>
+    <StackPanel>
+        <Expander Header="Овен">
+                <TextBlock>Все будет шикарно</TextBlock>
+        </Expander>
+            <Expander Header="Телец">
+                <TextBlock>Тебе стоит подумать, прежде чем покупать вещи</TextBlock>
+            </Expander>
+            <Expander Header="Близнецы">
+                <TextBlock>тебе улыбнется удача</TextBlock>
+            </Expander>
+            <Expander Header="Рак">
+                <TextBlock>не стоит браться за сложные дела</TextBlock>
+            </Expander>
+            <Expander Header="Лев">
+                <TextBlock>тебе сегодня улыбнется удача</TextBlock>
+            </Expander>
+            <Expander Header="Дева">
+                <TextBlock>не стоит браться за сложные дела</TextBlock>
+            </Expander>
+            <Expander Header="весы">
+                <TextBlock>улыбнется удача</TextBlock>
+            </Expander>
+            <Expander Header="скорпион">
+                <TextBlock>не стоит браться за сложные дела</TextBlock>
+        </Expander>
+            <Expander Header="стрелец">
+                <TextBlock>все круто</TextBlock>
+            </Expander>
+            <Expander Header="козерог">
+                <TextBlock>все плохо</TextBlock>
+            </Expander>
+            <Expander Header="водолей">
+                <TextBlock>не стоит браться за сложные дела</TextBlock>
+            </Expander>
+            <Expander Header="рыбы">
+            <StackPanel>
+                <TextBlock>Отметьте, что вам больше нравится</TextBlock>
+                <CheckBox>WinForms</CheckBox>
+                <CheckBox>WPF</CheckBox>
+                <CheckBox>ASP.NET</CheckBox>
+            </StackPanel>
+        </Expander>
+    </StackPanel>
+        
+        </Grid>
+</Window>
